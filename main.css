@@ -194,6 +194,11 @@ footer{
         margin-left: 0%;
     }
 }
+@media only screen and (max-width: 814px){
+    label{
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 414px){
     label{
         line-height: 0px;
