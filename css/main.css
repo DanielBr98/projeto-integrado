@@ -163,26 +163,44 @@ footer{
     }
 
     .menu{
-        background-color: rgba(38, 38, 38, 0.8);
+        overflow: auto;
+        height: 100%;
+        width: auto;
     }
 
     .menu li{
-        width: 60vw;
+        width: 65vw;
         font-size: 6vw;
         display: none;
         float: none;
-        background-color: rgba(38, 38, 38, 0.8);
+        background-color: rgba(38, 38, 38, 0.9);
     }
 
     .menu li a{
-        width: 60vw;
+        width: 65vw;
         font-size: 6vw;
-        display: block;
         float: none;
     }
 
     .menu li li{
-        background-color: darkgray
+        background-color: darkgray;
+    }
+
+    .menu li:hover{
+        color: white;
+        background-color: transparent;
+    }
+
+    .menu ul ul{
+        display: block;
+    }
+
+    .seta-baixo::after{
+        border-top: 5px solid white;
+    }
+    
+    .seta-baixo:hover:after{
+        border-top: 5px solid white;
     }
 
     .logo1 img{
@@ -192,21 +210,6 @@ footer{
     .slider img{
         width: 100%;
         margin-left: 0%;
-    }
-}
-@media only screen and (max-width: 812px){
-    label{
-        font-size: 35px;
-        margin-top: 7px;
-    }
-    .menu li{
-        width: 50vw;
-        font-size: 3.3vw;
-    }
-
-    .menu li a{
-        width: 50vw;
-        font-size: 3.3vw;
     }
 }
 @media only screen and (max-width: 414px){
