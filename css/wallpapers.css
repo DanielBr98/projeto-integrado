@@ -3,7 +3,7 @@ main{
     margin-left: 10%;
 }
 
-main h1{
+h1{
     text-align: center;
     color: darkred;
     font-family: 'Gloria Hallelujah', cursive;
@@ -12,8 +12,7 @@ main h1{
 }
 
 .barra{
-    width: 126%;
-    margin-left: -14%;
+    width: 100%;
     border-top: 25px solid rgba(89, 89, 89, 0.7);
 }
 
