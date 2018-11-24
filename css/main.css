@@ -197,16 +197,16 @@ footer{
 @media only screen and (max-width: 812px){
     label{
         font-size: 35px;
-        margin-top: 8px;
+        margin-top: 7px;
     }
     .menu li{
         width: 50vw;
-        font-size: 4vw;
+        font-size: 3.2vw;
     }
 
     .menu li a{
         width: 50vw;
-        font-size: 4vw;
+        font-size: 3.2vw;
     }
 }
 @media only screen and (max-width: 414px){
