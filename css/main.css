@@ -181,6 +181,7 @@ footer{
         width: 65vw;
         font-size: 6vw;
         float: none;
+        display: block;
     }
 
     .menu li li{
@@ -202,11 +203,15 @@ footer{
     }
 
     .seta-baixo::after{
-        border-top: 5px solid white;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid white;
     }
     
     .seta-baixo:hover:after{
-        border-top: 5px solid white;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid white;
     }
 
     .logo1 img{
@@ -233,6 +238,18 @@ footer{
     .menu li a{
         width: 75vw;
         font-size: 7vw;
+    }
+
+    .seta-baixo::after{
+        border-left: 7.5px solid transparent;
+        border-right: 7.5px solid transparent;
+        border-top: 7.5px solid white;
+    }
+    
+    .seta-baixo:hover:after{
+        border-left: 7.5px solid transparent;
+        border-right: 7.5px solid transparent;
+        border-top: 7.5px solid white;
     }
 
     .logo1 img{
