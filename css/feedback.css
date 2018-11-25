@@ -1,12 +1,10 @@
 body{
     font-family: monospace;
 }
-
 main{
     width: 80%;
     margin-left: 10%;
 }
-
 .wrap-p{
     width: 100%;
     background-color: rgba(38, 38, 38, 0.8);
@@ -59,7 +57,9 @@ input[type="submit"]{
 /*Style the wrap-form*/
 .wrap-form{
     border-radius: 5px;
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
+    background-color: black;
+    color: white;
     padding: 20px;
 }
 /*Floating column for labels: 25% width*/
