@@ -6,7 +6,7 @@ main{
 h1{
     text-align: center;
     color: darkred;
-    font-family: cursive;
+    font-family: monospace;
     font-size: 4.2vw;
     text-shadow: 3px 3px 3px black;
 }
