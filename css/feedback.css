@@ -67,6 +67,6 @@ input[type="submit"]{
 }
 @media only screen and (max-width: 414px){
     .coment{
-        font-size: 7pt;
+        font-size: 4pt;
     }
 }
