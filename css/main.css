@@ -37,7 +37,7 @@ label{
     background-color: black;
     color: white;
     font-size: 1.5vw;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: cursive;
     transition: 0.3s;
     text-shadow: 2px 2px 2px black;
 }
@@ -48,7 +48,7 @@ label{
     text-decoration: none;
     color: white;
     font-size: 1.5vw;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: cursive;
     transition: 0.3s;
     text-shadow: 2px 2px 2px black;
 }
@@ -132,7 +132,7 @@ footer{
     text-align: center;
     padding: 16px 14px;
     letter-spacing: 4px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: cursive;
     color: #f2f2f2;
 }
 .fmenu a:nth-child(1){font-weight: bold; color: darkred;}
@@ -145,7 +145,7 @@ footer{
     font-weight: normal;
     letter-spacing: 0px;
     padding: 20px 18px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: cursive;
     font-size: 1.7em;
 }
 @media only screen and (max-width: 812px){
